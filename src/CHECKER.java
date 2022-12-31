@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.JFileChooser;
 
-public class A4MahmudSaif {
+public class CHECKER {
 
 	public static void main(String[] args) {
 		Scanner dict = loadDictionary();
@@ -54,7 +54,7 @@ public class A4MahmudSaif {
 		Scanner dict = null ;
 		JFileChooser fc = new JFileChooser();
 		fc.setCurrentDirectory(new File("."));
-		fc.setDialogTitle("Load Dictionary File of type *.txt)");
+		fc.setDialogTitle("Load Dictionary File of type *.txt");
 		int selected = fc.showOpenDialog(fc);
 		if(selected == JFileChooser.APPROVE_OPTION)
 		{
@@ -80,7 +80,7 @@ public class A4MahmudSaif {
 		Scanner doc = null ;
 		JFileChooser fc = new JFileChooser();
 		fc.setCurrentDirectory(new File("."));
-		fc.setDialogTitle("Load Document File of type *.txt)");
+		fc.setDialogTitle("Load File to Check for errors in .txt");
 		int selected = fc.showOpenDialog(fc);
 		if(selected == JFileChooser.APPROVE_OPTION)
 		{

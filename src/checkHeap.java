@@ -1,11 +1,7 @@
 
 
 public class checkHeap {
-	public static void main(String[] args)
-	{
 		
-	}
-	
 	public static boolean checkHeap( int [] h ) 
 	{	
 		return checkHeapRecur(h, 0);
