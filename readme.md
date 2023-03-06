@@ -1,4 +1,7 @@
 ## Spell Checker
+
+[![Hits](https://hits.sh/github.com/vmsaif/wrongSpellDetector.svg?label=Visits&color=100b75)](https://hits.sh/github.com/vmsaif/wrongSpellDetector/)
+
 This Java project implements a spell checker that prompts the user to add a dictionary file in .txt format, and then prompts for a file to be checked for spelling mistakes in .txt format. It tells in which line the error occurred, and if multiple errors are found, it writes the line numbers.
 
 ## Features
